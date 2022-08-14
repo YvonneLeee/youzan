@@ -1,7 +1,8 @@
 import ReactDOM from "react-dom/client";
+// import BaseRouter from "./router"
+import App from './App'
 
-import BaseRouter from "./router"
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(<BaseRouter />)
+root.render(<App />)

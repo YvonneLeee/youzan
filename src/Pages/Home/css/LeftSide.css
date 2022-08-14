@@ -1,0 +1,37 @@
+.leftSide_box {
+  width: 100%;
+  background: transparent;
+  padding: 0.5rem 1rem;
+}
+.leftSide_box .search {
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+  line-height: 2rem;
+  border-bottom: 0.05rem solid #f0eeee;
+  color: #fff;
+  font-size: 1rem;
+}
+.leftSide_box .list {
+  margin-top: 0.8rem;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.leftSide_box .list .list_item1 {
+  line-height: 2.2rem;
+  border-radius: 0.2rem;
+  border-bottom: 0.1rem solid #6b6a6a;
+  user-select: none;
+}
+.leftSide_box .list .list_item1 .item1_div .sanjiao {
+  transform: rotateZ(90deg);
+  transition: all 0.3s linear;
+}
+.leftSide_box .list .list_item1 ol {
+  height: 0;
+  transition: all 0.3s linear;
+  overflow: hidden;
+}
+.leftSide_box .list .active_1 {
+  background: #74484F;
+}

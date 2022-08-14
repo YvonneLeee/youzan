@@ -1,0 +1,344 @@
+.shopIndex_box {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 2rem 0;
+  width: 100%;
+  height: 100%;
+  color: #332;
+  font-size: 1.3rem;
+}
+.shopMiddle_box {
+  width: 75%;
+  height: 100%;
+}
+.shopMiddle_box h6 {
+  font-weight: 700;
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+.shopMiddle_box .shopName {
+  display: flex;
+  align-items: flex-end;
+}
+.shopMiddle_box .shopName .blue_icon {
+  width: 3.5rem;
+  height: 1.5rem;
+  border: 0.1rem solid #0059ff;
+  border-radius: 0.2rem;
+  margin: 0 0.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  color: #0059ff;
+}
+.shopMiddle_box .shopName .blue_icon:last-child {
+  width: 4.5rem;
+}
+.shopMiddle_box .task_area {
+  width: 100%;
+  height: 20rem;
+  margin-top: 2.5rem;
+}
+.shopMiddle_box .task_area .task_header {
+  display: flex;
+}
+.shopMiddle_box .task_area .createShop {
+  background: #F3F3F3;
+  height: 10rem;
+  margin-top: 0.8rem;
+  padding: 1rem;
+}
+.shopMiddle_box .task_area .createShop .createShop_top h6 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+}
+.shopMiddle_box .task_area .createShop .createShop_top p {
+  color: #5e5e5b;
+  font-size: 0.9rem;
+}
+.shopMiddle_box .task_area .createShop .createShop_bottom {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.shopMiddle_box .task_area .createShop .createShop_bottom p {
+  color: #5e5e5b;
+  font-size: 0.9rem;
+}
+.shopMiddle_box .task_area .createShop .createShop_bottom .btns {
+  display: flex;
+}
+.shopMiddle_box .task_area .createShop .createShop_bottom .btns div {
+  font-size: 1rem;
+  width: 5rem;
+  height: 2.5rem;
+  margin-left: 0.8rem;
+  text-align: center;
+  line-height: 2.5rem;
+  background: #fff;
+  border: 0.1rem solid #696767;
+  border-radius: 0.2rem;
+}
+.shopMiddle_box .task_area .createShop .createShop_bottom .btns div:last-child {
+  color: #fff;
+  background: #3288FF;
+  border: none;
+}
+.shopMiddle_box .task_area .ShopData {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8rem;
+  margin-top: 1rem;
+  background: #F3F3F3;
+}
+.shopMiddle_box .task_area .ShopData div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 6rem;
+  height: 5rem;
+}
+.shopMiddle_box .task_area .ShopData div h3 {
+  font-size: 2rem;
+}
+.shopMiddle_box .task_area .ShopData div p {
+  font-size: 0.8rem;
+}
+.shopMiddle_box .usually_area {
+  margin-top: 3rem;
+}
+.shopMiddle_box .usually_area .function_module {
+  display: flex;
+  flex-wrap: wrap;
+  height: 6rem;
+  margin-top: 0.8rem;
+}
+.shopMiddle_box .usually_area .function_module li {
+  width: 20%;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  background: #F3F3F3;
+  border-right: 0.15rem solid #fff;
+  border-bottom: 0.15rem solid #fff;
+  font-size: 0.8rem;
+}
+.shopMiddle_box .usually_area .usually_bottom {
+  font-size: 0.6rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  background: #F3F3F3;
+  padding: 0 1rem;
+}
+.shopMiddle_box .saleApp_area {
+  margin-top: 3rem;
+}
+.shopMiddle_box .saleApp_area .saleApp_header {
+  display: flex;
+}
+.shopMiddle_box .saleApp_area .saleApp_module {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+  height: 7rem;
+  color: #fff;
+}
+.shopMiddle_box .saleApp_area .saleApp_module li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 0.3rem;
+  background: #79B5CA;
+  text-align: center;
+  align-items: center;
+}
+.shopMiddle_box .saleApp_area .saleApp_module li:last-child {
+  margin-right: 0;
+}
+.shopMiddle_box .saleApp_area .saleApp_module li h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.shopMiddle_box .saleApp_area .saleApp_module li p {
+  font-size: 1rem;
+}
+.shopMiddle_box .opinionLearn_area {
+  margin-top: 3rem;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_header {
+  display: flex;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_header .opinionLearn_title {
+  display: flex;
+  flex: 1;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_header .opinionLearn_title:first-child {
+  margin-right: 0.3rem;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_module {
+  display: flex;
+  margin-top: 0.8rem;
+  width: 100%;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_module ul {
+  flex: 1;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_module ul:first-child {
+  margin-right: 0.3rem;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_module .opinion_module {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_module .opinion_module li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  width: 12.5rem;
+  background: #F3F3F3;
+  font-size: 1.2rem;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_module .opinion_module li:nth-child(-n+2) {
+  margin-bottom: 0.2rem;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_module .opinion_module li p {
+  font-size: 0.8rem;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_module .learn_module {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #F3F3F3;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_module .learn_module li {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  padding: 0 1.5rem;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_module .learn_module li .message_icon {
+  width: 2.6rem;
+  height: 2.6rem;
+  background: #3288FF;
+  border-radius: 0.3rem;
+  text-align: center;
+  line-height: 2.6rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_module .learn_module li .icon_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+.shopMiddle_box .opinionLearn_area .opinionLearn_module .learn_module li .icon_content h5 {
+  font-size: 1rem;
+}
+.shopMiddle_box .more_area {
+  margin-top: 3rem;
+}
+.shopMiddle_box .more_area .more_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.8rem;
+  width: 100%;
+  height: 6rem;
+  margin-bottom: 5rem;
+  padding: 0 1rem;
+}
+.shopMiddle_box .more_area .more_bottom li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.shopMiddle_box .more_area .more_bottom li h3 {
+  color: #39b0b4;
+  font-size: 2rem;
+}
+.shopRight_box {
+  margin-top: 6.5rem;
+  width: 21%;
+}
+.shopRight_box .right_top li {
+  align-items: center;
+  background: #F1F1F1;
+  display: flex;
+  height: 5.5rem;
+  font-size: 0.8rem;
+  color: #999;
+  padding: 0 1rem;
+  margin-bottom: 0.5rem;
+}
+.shopRight_box .right_top li .small_icon {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+.shopRight_box .right_top li h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.3rem;
+}
+.shopRight_box .right_top .online_communication {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+.shopRight_box .right_top .online_communication div {
+  width: 13rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  background: #fff;
+  border: 0.1rem solid #8b8989;
+  border-radius: 0.2rem;
+  margin-bottom: 1.8rem;
+}
+.shopRight_box .god_cooker {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #333;
+}
+.shopRight_box .god_cooker header {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.shopRight_box .god_cooker ul li {
+  margin-bottom: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.shopRight_box .message_notice {
+  margin-top: 4rem;
+  display: flex;
+  height: 3rem;
+  font-size: 1rem;
+}
+.shopRight_box .message_notice div {
+  flex: 1;
+  text-align: center;
+  line-height: 3rem;
+  border: 0.1rem solid #ccc;
+}
+.shopRight_box .message_notice .msg {
+  border-right: 0;
+}

@@ -1,0 +1,49 @@
+.leftSide_box {
+    width: 100%;
+    background: transparent;
+    padding: .5rem 1rem;
+
+    .search {
+        display: flex;
+        justify-content: space-between;
+        height: 2rem;
+        line-height: 2rem;
+        border-bottom: .05rem solid rgb(240, 238, 238);
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    .list {
+        margin-top: .8rem;
+        color: #fff;
+        font-size: .8rem;
+
+        .list_item1 {
+            // height: 2.2rem;
+            line-height: 2.2rem;
+            border-radius: .2rem;
+            // background: #42424C;
+            border-bottom: .1rem solid rgb(107, 106, 106);
+            user-select: none;
+
+            .item1_div {
+                .sanjiao {
+                    transform: rotateZ(90deg);
+                    transition: all .3s linear;
+                }
+            }
+
+            ol {
+                height: 0;
+                transition: all .3s linear;
+                overflow: hidden;
+            }
+        }
+
+        .active_1 {
+            background: #74484F;
+        }
+
+
+    }
+}

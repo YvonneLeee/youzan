@@ -1,5 +1,58 @@
-.herder_box {
+.header_box {
+  position: fixed;
+  top: 0;
   width: 100vw;
-  height: 45px;
+  height: 2.8rem;
   background: #3C3C46;
+  color: #fff;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.4);
+  z-index: 999;
+}
+.header_box ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.4rem;
+  height: 2.8rem;
+}
+.header_box ul li {
+  display: flex;
+  align-items: center;
+  height: 2.8rem;
+}
+.header_box ul li a {
+  height: 2.8rem;
+  line-height: 2.8rem;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.header_box ul li .vertical_line {
+  width: 0.03rem;
+  height: 1.2rem;
+  margin: 0 0.5rem;
+  background: #fff;
+  opacity: 0.6;
+}
+.header_box ul li p {
+  color: #fff;
+  font-size: 0.95rem;
+  line-height: 2.8rem;
+  margin: 0;
+}
+.header_box ul li .preview_mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 2.8rem;
+  text-align: center;
+}
+.header_box ul li .preview_mark:hover {
+  color: #FFB4B4;
+  border-bottom: 0.1rem solid #FFB4B4;
+}
+.header_box ul li .four_icon {
+  font-size: 1rem;
+  margin: 0 0.7rem;
+  height: 2.8rem;
+  line-height: 2.8rem;
 }

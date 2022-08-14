@@ -1,0 +1,32 @@
+.home_box {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  background: #2C2C32;
+  padding: 0 16rem;
+}
+.home_box .left,
+.home_box .right {
+  width: 16rem;
+  height: 100vh;
+  padding-top: 2.8rem;
+  background: #3C3C46;
+  transition: all 0.3s linear;
+  position: fixed;
+  top: 1rem;
+}
+.home_box .left {
+  left: 0;
+}
+.home_box .right_ {
+  display: flex;
+  right: 0;
+}
+.home_box .mian_box {
+  width: 84rem;
+  height: 100%;
+  padding-top: 2.8rem;
+  background: #fff;
+  color: black;
+  transition: all 0.3s linear;
+}
